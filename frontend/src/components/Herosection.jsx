@@ -40,9 +40,7 @@ export default function HeroSection() {
             <Button children={"Join CFC Premium"} className={"button-color"} />
           </AnimatedContent>
           <AnimatedContent delay={1.8} distance={150}>
-            <button className="buttons">
               <Button children={"See What You Get"} className={"button-color"}/>
-            </button>
           </AnimatedContent>
       </div>
 
