@@ -1,6 +1,7 @@
 // HeroSection.jsx
 import React from "react";
 import TextType from './TextType/TextType';
+import "../css/Herosection.css";
 
 export default function HeroSection() {
   return (
@@ -29,16 +30,9 @@ export default function HeroSection() {
           PREMIUM
         </span>
       </h1>
-      <p
-        style={{
-          fontSize: "1.2rem",
-          color: "#FFFFFF",
-          maxWidth: "700px",
-          marginTop: "15px",
-        }}
-      >
-       <TextType typingSpeed={10} text={"Happy to introduce our CFC Premium WhatsApp Group—the first step in our long-term growth journey together for freelancers and startup founders."} />
-      </p>
+      
+       <TextType className="text_hero" typingSpeed={10} text={"Happy to introduce our CFC Premium WhatsApp Group—the first step in our long-term growth journey together for freelancers and startup founders."} />
+      
     </section>
   );
 }
