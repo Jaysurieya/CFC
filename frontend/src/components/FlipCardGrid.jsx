@@ -15,10 +15,22 @@ const FlipCardGrid = () => {
   ];
 
   return (
+     <div>
+  {/* Section Heading */}
+  <div style={{ textAlign: "center", marginBottom: "2rem" }}>
+    <h2 style={{ fontWeight: "bold", fontSize: "3rem", color: "#fff" }}>
+      Our presence in{" "}
+      <span style={{ color: "#5aedbaff" }}>8+ CITIES</span>
+    </h2>
+    <p style={{ fontSize: "1rem", color: "#ccc" }}>
+      Meetups, mixers, and premium sessions across India.
+    </p>
+  </div>
     <div className="card-grid">
       {cards.map((card, index) => (
         <FlipCard key={index} image={card.image} backText={card.backText} />
       ))}
+    </div>
     </div>
   );
 };

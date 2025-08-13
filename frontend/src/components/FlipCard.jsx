@@ -3,6 +3,7 @@ import "../css/FlipCard.css";
 
 const FlipCard = ({ image, backText }) => {
   return (
+    
     <div className="card">
       <div className="content">
         <div className="front">
@@ -10,7 +11,7 @@ const FlipCard = ({ image, backText }) => {
         </div>
         <div className="back">{backText}</div>
       </div>
-    </div>
+    </div>  
   );
 };
 
