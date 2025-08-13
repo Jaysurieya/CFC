@@ -1,5 +1,6 @@
 // HeroSection.jsx
 import React from "react";
+import TextType from './TextType/TextType';
 
 export default function HeroSection() {
   return (
@@ -12,7 +13,7 @@ export default function HeroSection() {
         alignItems: "center",
         textAlign: "center",
         backgroundColor: "#0D2423",
-        padding: "0 20px",
+        padding: "0 0px",
       }}
     >
       <h1
@@ -36,8 +37,9 @@ export default function HeroSection() {
           marginTop: "15px",
         }}
       >
-       
+       <TextType typingSpeed={10} text={"Happy to introduce our CFC Premium WhatsApp Group—the first step in our long-term growth journey together for freelancers and startup founders."} />
       </p>
     </section>
   );
 }
+
