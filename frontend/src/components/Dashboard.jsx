@@ -4,7 +4,8 @@ import HeroSection from './Herosection';
 import '../css/Dashboard.css';
 import CenterContent from './CenterContent';
 import FlipCardGrid from './FlipCardGrid';
-
+import ProfileCard from './ProfileCard';
+import  Speakers from './Speakers';
 
 
 function Dashboard() {
@@ -13,7 +14,7 @@ function Dashboard() {
       <NavbarDemo />
       <HeroSection />
       <CenterContent />
-     
+      <Speakers />
       <FlipCardGrid />
     </div>
   );
