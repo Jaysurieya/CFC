@@ -20,4 +20,8 @@ const CenterContent = () => {
   );
 };
 
+<<<<<<< Updated upstream
 export default CenterContent;
+=======
+export default CenterContent;
+>>>>>>> Stashed changes
