@@ -5,7 +5,7 @@ export default function HeroSection() {
   return (
     <section
       style={{
-        minHeight: "100vh",
+        minHeight: "50vh",
         display: "flex",
         flexDirection: "column",
         justifyContent: "center",
@@ -17,14 +17,14 @@ export default function HeroSection() {
     >
       <h1
         style={{
-          fontSize: "4rem",
+          fontSize: "7rem",
           fontWeight: "bold",
-          color: "#FFFFFF",
+          color: "#ffffffff",
           margin: 0,
         }}
       >
         CFC{" "}
-        <span style={{ color: "#00F5A0" /* teal green */, display: "inline-block" }}>
+        <span style={{ color: "#5aedbaff" /* teal green */, display: "inline-block" }}>
           PREMIUM
         </span>
       </h1>
@@ -36,7 +36,7 @@ export default function HeroSection() {
           marginTop: "15px",
         }}
       >
-        Accelerate your experience with CFC Premium — the future of innovation.
+       
       </p>
     </section>
   );
