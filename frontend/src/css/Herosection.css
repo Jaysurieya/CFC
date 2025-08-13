@@ -3,3 +3,12 @@
     color: "#FFFFFF";
     max-width: 700px;
 }
+.flex-row{
+    padding-top: 30px;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+.button-color{
+    background-color: #5aedbaff;
+}

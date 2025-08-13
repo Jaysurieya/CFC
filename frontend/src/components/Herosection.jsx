@@ -2,6 +2,9 @@
 import React from "react";
 import TextType from './TextType/TextType';
 import "../css/Herosection.css";
+import Button from "./Button";
+import AnimatedContent from "./AnimatedContent/AnimatedContent";
+
 
 export default function HeroSection() {
   return (
@@ -31,8 +34,18 @@ export default function HeroSection() {
         </span>
       </h1>
       
-       <TextType className="text_hero" typingSpeed={10} text={"Happy to introduce our CFC Premium WhatsApp Group—the first step in our long-term growth journey together for freelancers and startup founders."} />
-      
+      <TextType className="text_hero" typingSpeed={10} text={"Happy to introduce our CFC Premium WhatsApp Group—the first step in our long-term growth journey together for freelancers and startup founders."} />
+      <div className='flex-row'>
+          <AnimatedContent delay={1.8} distance={150}>
+            <Button children={"Join CFC Premium"} className={"button-color"} />
+          </AnimatedContent>
+          <AnimatedContent delay={1.8} distance={150}>
+            <button className="buttons">
+              <Button children={"See What You Get"} className={"button-color"}/>
+            </button>
+          </AnimatedContent>
+      </div>
+
     </section>
   );
 }
